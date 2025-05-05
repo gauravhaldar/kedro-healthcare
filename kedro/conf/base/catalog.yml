@@ -1,0 +1,20 @@
+
+dim_doctor:
+  type: pandas.CSVDataSet
+  filepath: lib/python/kedro/data/dim_doctor.csv
+
+dim_patient:
+  type: pandas.CSVDataSet
+  filepath: lib/python/kedro/data/dim_patient_updated.csv
+
+dim_insurance:
+  type: pandas.CSVDataSet
+  filepath: lib/python/kedro/data/dim_insurance.csv
+
+final_healthcare:
+  type: pandas.CSVDataSet
+  filepath: lib/python/kedro/data/final_healthcare_dataset_with_doctor_id.csv
+
+final_enriched_data:
+  type: pandas.CSVDataSet
+  filepath: lib/python/kedro/data/final_enriched_data.csv
